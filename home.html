@@ -6,69 +6,109 @@
     <title>Paul Bunyan Communications | Homepage Redesign</title>
     <link rel="stylesheet" href="home-styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Redesigned homepage for Paul Bunyan Communications, providing fiber internet, TV, and phone services.">
+    <meta name="description" content="Paul Bunyan Communications provides reliable fiber internet, TV, and phone services to Northern Minnesota communities.">
 </head>
 
 <body>
 
-    <!-- Target Business Link -->
+    <!-- Original Website Reference -->
     <div class="highlight">
-        <a href="http://www.paulbunyan.net/" target="_blank">
+        <a href="https://paulbunyan.net/" target="_blank">
             Visit the Original Paul Bunyan Communications Website
         </a>
     </div>
 
-    <!-- Header -->
-    <header>
+    <!-- Header / Branding -->
+    <header class="site-header">
         <h1>Paul Bunyan Communications</h1>
-        <h2>Reliable Fiber Internet for Northern Minnesota</h2>
+        <p class="tagline">Reliable Fiber Internet for Northern Minnesota</p>
     </header>
 
     <!-- Navigation -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Internet</a>
-        <a href="#">TV</a>
-        <a href="#">Phone</a>
-        <a href="#">Support</a>
-        <a href="#">Contact</a>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Internet</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
 
-    <!-- Main Content Area -->
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Image source: Unsplash | Photographer: Tommy Lisbin -->
+        <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf"
+             alt="Fiber optic cables representing high-speed internet">
+        <div class="hero-text">
+            <h2>Connecting Communities Since 1952</h2>
+            <p>
+                As a member-owned cooperative, Paul Bunyan Communications is dedicated to
+                delivering fast, reliable, and affordable broadband to rural Minnesota.
+            </p>
+            <a href="#" class="cta-button">Check Availability</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
     <main>
 
         <!-- Aside -->
         <aside>
             <h3>Why Choose Us?</h3>
             <ul>
-                <li>Locally owned & operated</li>
+                <li>Locally owned & operated cooperative</li>
                 <li>100% fiber-optic network</li>
                 <li>Award-winning customer service</li>
+                <li>Built for rural communities</li>
             </ul>
         </aside>
 
-        <!-- Section -->
-        <section>
+        <!-- Services Section -->
+        <section class="services">
 
-            <!-- Article -->
-            <article>
-                <h2>Connecting Communities Since 1952</h2>
-                <p>
-                    Paul Bunyan Communications is committed to bringing fast, reliable,
-                    and affordable broadband services to rural and regional communities.
-                    Our cooperative model ensures that our customers are also our owners.
-                </p>
+            <h2>Our Services</h2>
 
-                <h3>Our Services</h3>
-                <div>
+            <div class="service-cards">
+
+                <!-- Internet Card -->
+                <article class="card">
+                    <!-- Image source: Unsplash | Photographer: Compare Fibre -->
+                    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
+                         alt="High-speed internet connection">
+                    <h3>Fiber Internet</h3>
                     <p>
-                        We offer high-speed fiber internet, crystal-clear digital TV,
-                        and dependable phone services designed to meet both residential
-                        and business needs.
+                        Experience ultra-fast, reliable fiber internet built to support
+                        streaming, gaming, and working from home.
                     </p>
-                </div>
-            </article>
+                </article>
 
+                <!-- TV Card -->
+                <article class="card">
+                    <!-- Image source: Unsplash | Photographer: Glenn Carstens-Peters -->
+                    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+                         alt="Watching television at home">
+                    <h3>Digital TV</h3>
+                    <p>
+                        Enjoy crystal-clear digital TV with local channels, sports,
+                        and entertainment options for every household.
+                    </p>
+                </article>
+
+                <!-- Phone Card -->
+                <article class="card">
+                    <!-- Image source: Unsplash | Photographer: NordWood Themes -->
+                    <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4"
+                         alt="Home phone and communication services">
+                    <h3>Phone Services</h3>
+                    <p>
+                        Dependable phone services with clear connections and
+                        affordable plans for home and business.
+                    </p>
+                </article>
+
+            </div>
         </section>
 
     </main>
@@ -76,7 +116,9 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Paul Bunyan Communications | Homepage Redesign Project</p>
-        <p>Student Project – Images and content adapted for educational use</p>
+        <p>
+            Student Project – Images sourced from Unsplash.com for educational use.
+        </p>
     </footer>
 
 </body>
