@@ -1,9 +1,20 @@
 /* Joel Rohrer February 22 2026 */
 
+.site-header {
+    position: relative; 
+    padding: 40px 40px 40px 160px; 
+}
+
+.logo-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; 
+}
+
 .logo-link img {
-    height: 150px;
+    height: 100px;  
     width: auto;
-    display: block;
 }
 
 .logo-link:hover img { opacity: 0.9; }
